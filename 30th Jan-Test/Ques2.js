@@ -1,23 +1,29 @@
 //Prime number
   var number=prompt("Enter a number");
 	number=parseInt(number);
-	  var count=0;
+	 
         if(isNaN(number))
         {
 	      alert("Please enter number");
         }
-       for(var i=1;i<=number;i++)
+		for(var i=1;i<=number;i++)
+		{
+			var count=true;
+       for(var j=2;j<i;j++)
        {
-		  if(number%i==0)
+		  if(i%j==0)
 	      {
-		    count++;
-	      }
-       }
-         if(count==2)
-         {
-	       alert(number+" "+"is prime number");
-         }
-         else
-         {
-	       alert(number+" "+"is not prime number");
-         }
+		  count=false;
+		  break;
+		  }
+		  
+	   }
+		  if(i>1&&count==true)
+			  
+		  {
+		  
+			  console.log(i);
+		  }
+		  
+		}
+	   

@@ -9,15 +9,15 @@
 		for(var i=1;i<=number;i++)
 		{
 			var count=true;
-       for(var j=2;j<i;j++)
-       {
-		  if(i%j==0)
-	      {
+                  for(var j=2;j<i;j++)
+                   {
+		     if(i%j==0)
+	          {
 		  count=false;
 		  break;
 		  }
 		  
-	   }
+	       }
 		  if(i>1&&count==true)
 			  
 		  {

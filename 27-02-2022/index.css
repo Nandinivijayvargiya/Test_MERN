@@ -1,0 +1,141 @@
+body
+{
+    margin: 0px;
+}
+.main-div
+{
+    background-color: white;
+    border-left: 3px solid black;
+    border-top: none;
+    border-bottom:none;
+    border-right:3px solid black;
+    height: 530px;
+    width: 700px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 50px;
+    margin-top: 30px;
+}
+.main-div>.one
+{
+    display: inline-block;
+    height: 260px;
+    width: 250px;
+    position: sticky;
+    top:0px;
+    background-color: #ee1c25;
+}
+.one p
+{
+    display: inline-block;
+    margin: 100px 100px 100px 100px;
+    font-weight: bolder;
+}
+.main-div>.two
+{
+    display: inline-block;
+    height: 130px;
+    width: 350px;
+    background-color: #fff200;
+    position: fixed;
+}
+.two p
+{
+    display: inline-block;
+    margin: 50px 40px 40px 150px;
+    font-weight: bolder;
+}
+.main-div>.three
+{
+    display: inline-block;
+    height: 260px;
+    width: 102px;
+    background-color: #ed008c;
+    position: fixed;
+    left: 680px;
+}
+.three p
+{
+    display: inline-block;
+    margin: 110px 20px 40px 25px;
+    font-weight: bolder;
+}
+.main-div>.four
+{
+    display: inline-block;
+    position: fixed;
+    top:180px;
+    width: 348px;
+    height: 130px;
+    background-color: #009445;
+}
+.four p
+{
+    display: inline-block;
+    margin: 60px 40px 40px 150px;
+    font-weight: bolder;
+}
+.main-div>.five
+{
+    position: fixed;
+    display: inline-block;
+    width: 420px;
+    height: 100px;
+    background-color: #f7941e;
+    top:310px;
+    margin-left: -250px;
+}
+.five p
+{
+    display: inline-block;
+    margin: 40px 40px 40px 150px;
+    font-weight: bolder;
+}
+.main-div>.six
+{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    background-color: #00aeef;
+    top:310px;
+    margin-left: 170px;
+}
+.six p
+{
+    display: inline-block;
+    margin: 40px 40px 40px 30px;
+    font-weight: bolder;
+}
+.main-div>.seven
+{
+    display: inline-block;
+    height: 250px;
+    width: 182px;
+    background-color: #662d91;
+    position: fixed;
+    left:600px;
+    top:310px;
+}
+.seven p
+{
+    display: inline-block;
+    margin: 100px 40px 40px 60px;
+    font-weight: bolder;
+}
+.main-div>.eight
+{
+    display: inline-block;
+    height: 150px;
+    width: 518px;
+    background-color: #c49a6c;
+    position: fixed;
+    top:410px;
+    margin-left: -250px;
+}
+.eight p
+{
+    display: inline-block;
+    margin: 70px 40px 40px 200px;
+    font-weight: bolder;
+}

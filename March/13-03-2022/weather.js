@@ -27,7 +27,7 @@ var main_fn=function(name)
     {
         var input=document.getElementById("input_field");
         var city_val=input.value;
-        fetch('http://api.openweathermap.org/data/2.5/weather?q='+city_val+'&units=metric&&appid=79374c70b20aea3c47ef644e2c5828a8').then(convert_to_json).then(handle_data);
+        fetch('http://api.openweathermap.org/data/2.5/weather?q='+city_val+'&units=metric&appid=79374c70b20aea3c47ef644e2c5828a8').then(convert_to_json).then(handle_data);
         var btn=document.getElementById("search_btn");
         var content=document.getElementById("info_content");
         content.style.display="flex";

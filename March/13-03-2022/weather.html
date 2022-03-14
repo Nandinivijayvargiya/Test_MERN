@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./weather.css"/>
+    <title>Weather Forecast</title>
+</head>
+<body>
+    <div class="input">
+    <input type="text" placeholder="enter your city here" id="input_field"/>
+    <button id="search_btn"><img src="./search.png"></button>
+    <script src="./weather.js"></script>
+    </div>
+    <div class="info_container" id="info_content" style="display: none;">
+        <div class="info_field">
+            <h1 id="city_name">
+                <a id="country"></a>
+            </h1>
+            <div class="specific_info">
+                <span class="all-info">
+                    <img id="image"/>
+                    <p id="sky_type"></p>
+                    <p id="temp"></p>
+                    <p id="max_temp"></p>
+                    <p id="min_temp"></p>
+                    <p id="feel_like"></p>
+                    <p id="wind"></p>
+                </span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
